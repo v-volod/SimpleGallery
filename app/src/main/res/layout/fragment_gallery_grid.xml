@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ev="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_gray_50">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical"
+        android:visibility="gone"/>
+
+    <com.vojkovladimir.gallery.view.EmptyView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ev:image="@drawable/vec_collections_black_56dp"
+        ev:imageTint="@color/md_gray_300"
+        ev:text="@string/no_images"
+        ev:textColor="@color/md_gray_300"/>
+
+</FrameLayout>

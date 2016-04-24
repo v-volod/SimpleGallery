@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Gallery</string>
+
+    <string name="no_images">No images</string>
+
+    <string name="question_delete">Delete this photo?</string>
+    <string name="question_delete_description">This photo will be permanently deleted from the device memory</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="content_empty_view_icon">Empty view icon</string>
+    <string name="content_image">Image</string>
+
+</resources>

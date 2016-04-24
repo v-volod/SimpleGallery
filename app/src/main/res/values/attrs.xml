@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EmptyView">
+        <attr name="text" format="string|reference"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="image" format="reference"/>
+        <attr name="imageTint" format="color|reference"/>
+    </declare-styleable>
+</resources>
